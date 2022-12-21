@@ -1,0 +1,35 @@
+<body style="background-color:#000002;">
+    <style>
+            h2 {
+              color: #7e3e06;
+              text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+              font-family: Copperplate, Papyrus, fantasy;
+            }
+        body {
+          background-image:url('login2.1.gif');background-repeat:no-repeat;
+        }
+        </style>
+
+            <h2>
+<body oncontextmenu="return false">
+</body> 
+<body>
+<label for="pswd">No cap. What was heard in the audio?: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "trex";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="Third.html";
+        }
+        else{
+            alert("Oh it's so wrong! Perhaps you are over-thinking?");
+        }
+    }
+</script>
+</body>
+</html>
