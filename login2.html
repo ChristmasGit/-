@@ -21,17 +21,11 @@
     <input type="password" id="pswd">
     <input type="button" value="Submit" onclick="checkPswd();" />
 </form>
-<!--Function to check password the already set password is admin-->
+
 <script type="text/javascript">
     function checkPswd() {
-        var confirmPassword = "trex";
-        var password = document.getElementById("pswd").value;
-        if (password == confirmPassword) {
-             window.location="Third.html";
-        }
-        else{
-            alert("Oh it's so wrong! Perhaps you are over-thinking?");
-        }
+        //redirect to php file
+             window.location="whereever the php file is hosted";
     }
 </script>
 </body>
